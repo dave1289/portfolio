@@ -5,6 +5,9 @@ $('document').ready(function(){
         $('#contact-page').hide();
         $('#my-work-page').hide();
         $('#about-page').show()
+        $('document').ready(()=>{
+            $('#dave-shot').show();
+        })
     })
     $('#my-work').on('click', ()=>{
         // console.log('test-my-work')
