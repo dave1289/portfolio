@@ -121,3 +121,24 @@ ul {
     align-content: space-around;
     margin-bottom: 10vh;
 }
+
+.project-description {
+    font-size: 1rem !important;
+}
+
+#my-work-page a {
+    display:none;
+    font-size: 1rem !important;
+    animation-name: anchor-fade;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+}
+@keyframes anchor-fade {
+    0%{
+        display: none;
+    }
+    100% {
+        display: block;
+    }
+    
+}
