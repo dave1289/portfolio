@@ -48,7 +48,6 @@ body {
     position: absolute;
     width: 0px;
     background-color: rgba(0,0,0,0.6);
-    height: 98vh;
     margin:auto;
     align-self: center;
     justify-self: center;
@@ -91,7 +90,28 @@ body {
     }
 }
 
-#about-me {
+#about-page {
     display: none;
     
+}
+
+#contact-page {
+    display:none;
+}
+
+#my-work-page {
+    display:none;
+}
+
+ul {
+    list-style: none;
+}
+
+#contact-list li {
+    font-size: 2.5rem;
+    padding: 15px;
+}
+
+#dave-shot {
+    display:none;
 }
