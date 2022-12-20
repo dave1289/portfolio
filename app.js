@@ -1,4 +1,5 @@
 $('document').ready(function(){
+    $('#dave-shot').hide();
     $('#meet-me').on('click', ()=>{
         // console.log('test-about-me')
         $('#main-page').hide();
@@ -6,6 +7,9 @@ $('document').ready(function(){
         $('#my-work-page').hide();
         $('#about-page').show()
         $('#my-work-page a').hide();
+        setTimeout(function(){
+            $('#dave-shot').show()
+        }, 2500);
     })
     $('#my-work').on('click', ()=>{
         // console.log('test-my-work')
