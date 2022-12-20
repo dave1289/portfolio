@@ -15,7 +15,7 @@ $('document').ready(function(){
         $('#about-page').hide()
         setTimeout(function(){
             $('#my-work-page a').show()
-        }, 3000);
+        }, 2500);
         })
     $('#contact').on('click', ()=>{
         // console.log('test-contact')
