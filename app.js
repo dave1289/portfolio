@@ -17,6 +17,7 @@ $('document').ready(function(){
         $('#my-work-page').show();
         $('#contact-page').hide();
         $('#about-page').hide()
+        $('#dave-shot').hide();
         setTimeout(function(){
             $('#my-work-page a').show()
         }, 2500);
@@ -28,6 +29,7 @@ $('document').ready(function(){
         $('#about-page').hide();
         $('#my-work-page').hide();
         $('#my-work-page a').hide();
+        $('#dave-shot').hide();
     })
     $('#home-page-dave').on('click', ()=>{
         // console.log('test dave')
@@ -36,5 +38,6 @@ $('document').ready(function(){
         $('#contact-page').hide();
         $('#my-work-page').hide();
         $('#my-work-page a').hide();
+        $('#dave-shot').hide();
     })
 })
